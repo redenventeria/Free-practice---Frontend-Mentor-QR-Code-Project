@@ -1,3 +1,10 @@
+@font-face {}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 footer {
     font-size: 11px;
     text-align: center;
@@ -5,4 +12,29 @@ footer {
 
 footer a {
     color: hsl(228, 45%, 44%);
+}
+
+main {
+    background-color: #D5E1EF;
+    width: 1400px;
+    height: 800px;
+    margin: 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.qrcode {
+    padding: 1%;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    position: relative;
+    bottom: 20%;
+}
+
+img {
+    aspect-ratio: 1/1;
+    border-radius: 10px;
+    margin: auto auto;
 }
